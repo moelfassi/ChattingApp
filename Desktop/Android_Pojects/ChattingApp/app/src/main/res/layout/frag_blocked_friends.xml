@@ -1,0 +1,17 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/PeerMessagesLL"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical">
+
+    <ListView
+        android:id="@+id/blockedlist"
+        android:layout_width="match_parent"
+        android:divider="@color/Grey200"
+        android:dividerHeight="1dp"
+        android:layout_height="0dp" 
+        android:layout_weight="1"/>
+
+</LinearLayout>
+

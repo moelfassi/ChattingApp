@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:emojicon="http://schemas.android.com/apk/res-auto"
+    android:descendantFocusability="blocksDescendants"
+    android:orientation="horizontal"
+    android:padding="10dp" >
+
+    <com.example.chattingapp.views.RoundedImageView
+        android:id="@+id/user_image"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_marginRight="10dp"
+        android:src="@drawable/personicon"/>
+
+    <TextView
+        android:id="@+id/list_am_name_bottom"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/list_am_name_top"
+        android:layout_centerVertical="true"
+        android:layout_toRightOf="@+id/user_image"
+        android:text=""
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:textColor="#000000"
+        android:textStyle="bold" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/user_image"
+        android:layout_toRightOf="@+id/user_image"
+        android:ellipsize="end">
+    <github.ankushsachdeva.emojicon.EmojiconTextView 
+        android:id="@+id/list_am_content"
+        android:layout_width="0dp"
+        android:layout_weight="2"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/user_image"
+        android:layout_toRightOf="@+id/user_image"
+        android:ellipsize="end"
+        android:layout_marginRight="5dp"
+        android:singleLine="true"
+        emojicon:emojiconSize="28sp"
+        android:text="I have a question."
+        android:textColor="#A9A9A9" />
+
+    <github.ankushsachdeva.emojicon.EmojiconTextView 
+        android:id="@+id/seencount"
+        android:layout_width="wrap_content"
+        android:layout_weight="0.1"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/user_image"
+        android:layout_toRightOf="@+id/user_image"
+        android:ellipsize="end"
+        android:singleLine="true"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:padding="2dp"
+        android:visibility="invisible"
+        android:text="2"
+        android:background="@color/material_blue_500"
+        android:textColor="@color/white" />
+    </LinearLayout>
+    <TextView
+        android:id="@+id/list_am_name_top"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/list_am_name_bottom"
+        android:layout_alignParentTop="true"
+        android:text="meee"
+        android:textSize="20dp"
+        android:textColor="#696969"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/btnaddfriend"
+        android:layout_width="40dp"
+        android:layout_height="35dp"
+        android:layout_alignParentRight="true"
+        android:layout_alignTop="@+id/list_am_name_top"
+        android:background="@drawable/addfriend"
+        android:textColor="@color/white"
+        android:text=""
+        android:layout_marginTop="9dp"
+        android:layout_marginRight="3dp"
+        android:layout_alignParentEnd="true" />
+
+</RelativeLayout>

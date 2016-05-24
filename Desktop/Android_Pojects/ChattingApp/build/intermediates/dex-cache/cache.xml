@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="/Users/elfassimounir/Desktop/Android_Pojects/ChattingApp/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/jars/classes.jar"
+        jumboMode="true"
+        revision="23.0.2"
+        sha1="5c5699834e9722f1c288fea2de82725d078ba127">
+        <dex dex="/Users/elfassimounir/Desktop/Android_Pojects/ChattingApp/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-appcompat-v7-23.1.1_6fa45af0acea7928513409275ade0896dee2bfda/classes.dex" />
+    </item>
+    <item
+        jar="/Users/elfassimounir/Library/Android/sdk/extras/android/m2repository/com/android/support/support-annotations/23.1.1/support-annotations-23.1.1.jar"
+        jumboMode="true"
+        revision="23.0.2"
+        sha1="8d680ba5a623724d1fb0e81c36a790f023a6cede">
+        <dex dex="/Users/elfassimounir/Desktop/Android_Pojects/ChattingApp/app/build/intermediates/transforms/dex/debug/folders/1000/10/support-annotations-23.1.1_0b20cac018547ec07fafc99e255f3fe87f551f36/classes.dex" />
+    </item>
+    <item
+        jar="/Users/elfassimounir/Desktop/Android_Pojects/ChattingApp/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
+        jumboMode="true"
+        revision="23.0.2"
+        sha1="b623f1f03dc90bdd07c8255d89c00b757c2e15e3">
+        <dex dex="/Users/elfassimounir/Desktop/Android_Pojects/ChattingApp/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run-bootstrap_822df1187116db0b7d57d8a744de51faf4c2ea3c/classes.dex" />
+    </item>
+    <item
+        jar="/Users/elfassimounir/Desktop/Android_Pojects/ChattingApp/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-gcm/8.4.0/jars/classes.jar"
+        jumboMode="true"
+        revision="23.0.2"
+        sha1="2d7fe76982677315c4dc4edfb459c8ca718a9d4c">
+        <dex dex="/Users/elfassimounir/Desktop/Android_Pojects/ChattingApp/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-gcm-8.4.0_efa365969f3d1d22d0f3a09bea6bac9e1c567366/classes.dex" />
+    </item>
+    <item
+        jar="/Users/elfassimounir/.gradle/caches/modules-2/files-2.1/com.squareup.picasso/picasso/2.5.2/7446d06ec8d4f7ffcc53f1da37c95f200dcb9387/picasso-2.5.2.jar"
+        jumboMode="true"
+        revision="23.0.2"
+        sha1="7446d06ec8d4f7ffcc53f1da37c95f200dcb9387">
+        <dex dex="/Users/elfassimounir/Desktop/Android_Pojects/ChattingApp/app/build/intermediates/transforms/dex/debug/folders/1000/10/picasso-2.5.2_7552f767dd6c1cdd937566d5d57d50d176555592/classes.dex" />
+    </item>
+    <item
+        jar="/Users/elfassimounir/Desktop/Android_Pojects/ChattingApp/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.1.1/jars/libs/internal_impl-23.1.1.jar"
+        jumboMode="true"
+        revision="23.0.2"
+        sha1="a4de9c81ae239414e1ed0f86441b02abaf29bca9">
+        <dex dex="/Users/elfassimounir/Desktop/Android_Pojects/ChattingApp/app/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-23.1.1_3bbcbff93823c6671a3ad1a55402e8e5efc8f846/classes.dex" />
+    </item>
+    <item
+        jar="/Users/elfassimounir/Desktop/Android_Pojects/ChattingApp/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-measurement/8.4.0/jars/classes.jar"
+        jumboMode="true"
+        revision="23.0.2"
+        sha1="613298b7aa012f121ce542881c0a599ebd8078f2">
+        <dex dex="/Users/elfassimounir/Desktop/Android_Pojects/ChattingApp/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-measurement-8.4.0_16072ad45c9cbb14b0fad3943e409cb640f84e67/classes.dex" />
+    </item>
+    <item
+        jar="/Users/elfassimounir/Desktop/Android_Pojects/ChattingApp/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-plus/8.4.0/jars/classes.jar"
+        jumboMode="true"
+        revision="23.0.2"
+        sha1="1a78298e7724d5440d210bcb946b3493250d354d">
+        <dex dex="/Users/elfassimounir/Desktop/Android_Pojects/ChattingApp/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-plus-8.4.0_81f5a2cd3eb6a1cf0fd88f200023b41f523332bd/classes.dex" />
+    </item>
+    <item
+        jar="/Users/elfassimounir/Desktop/Android_Pojects/ChattingApp/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-maps/8.4.0/jars/classes.jar"
+        jumboMode="true"
+        revision="23.0.2"
+        sha1="04de44f90606c77f3b28cf44861f306290505aac">
+        <dex dex="/Users/elfassimounir/Desktop/Android_Pojects/ChattingApp/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-maps-8.4.0_73c185478fdb6a493b9ea52bdee85403ca80c710/classes.dex" />
+    </item>
+    <item
+        jar="/Users/elfassimounir/Desktop/Android_Pojects/ChattingApp/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/8.4.0/jars/classes.jar"
+        jumboMode="true"
+        revision="23.0.2"
+        sha1="fef2b3e4b6b1b0e5fe7b69fa137a5fa55a3182ab">
+        <dex dex="/Users/elfassimounir/Desktop/Android_Pojects/ChattingApp/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-base-8.4.0_9ca6f592bfa098873f4c569ed822b3ea656f3091/classes.dex" />
+    </item>
+    <item
+        jar="/Users/elfassimounir/Desktop/Android_Pojects/ChattingApp/app/libs/httpcore-4.4.4.jar"
+        jumboMode="true"
+        revision="23.0.2"
+        sha1="b31526a230871fbe285fbcbe2813f9c0839ae9b0">
+        <dex dex="/Users/elfassimounir/Desktop/Android_Pojects/ChattingApp/app/build/intermediates/transforms/dex/debug/folders/1000/2/httpcore-4.4.4_c8bfad115df934403ac92a734599c363da402408/classes.dex" />
+    </item>
+    <item
+        jar="/Users/elfassimounir/Desktop/Android_Pojects/ChattingApp/app/build/intermediates/exploded-aar/com.android.support/design/23.1.1/jars/classes.jar"
+        jumboMode="true"
+        revision="23.0.2"
+        sha1="379471b2bd17d9737c050345c08e8c7d16589784">
+        <dex dex="/Users/elfassimounir/Desktop/Android_Pojects/ChattingApp/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-design-23.1.1_603cb59069f73e93bb15b8f87d761e2ed270de17/classes.dex" />
+    </item>
+    <item
+        jar="/Users/elfassimounir/Desktop/Android_Pojects/ChattingApp/app/build/intermediates/exploded-aar/com.soundcloud.android/android-crop/1.0.1/jars/classes.jar"
+        jumboMode="true"
+        revision="23.0.2"
+        sha1="11a65cf2b30c192b38a881d626fa771a78a2293d">
+        <dex dex="/Users/elfassimounir/Desktop/Android_Pojects/ChattingApp/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.soundcloud.android-android-crop-1.0.1_57d16233f0050e77f2439db869044ec489a65637/classes.dex" />
+    </item>
+    <item
+        jar="/Users/elfassimounir/Desktop/Android_Pojects/ChattingApp/app/libs/universal-image-loader-1.9.5.jar"
+        jumboMode="true"
+        revision="23.0.2"
+        sha1="442dbfb517b9ab5cb5c6da7ebf8cc28ec5bd0375">
+        <dex dex="/Users/elfassimounir/Desktop/Android_Pojects/ChattingApp/app/build/intermediates/transforms/dex/debug/folders/1000/2/universal-image-loader-1.9.5_b20fd343a8219628117bd66145d5f8eb38defcbb/classes.dex" />
+    </item>
+    <item
+        jar="/Users/elfassimounir/Desktop/Android_Pojects/ChattingApp/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-location/8.4.0/jars/classes.jar"
+        jumboMode="true"
+        revision="23.0.2"
+        sha1="a8412b654dab86d57bf90683367488211c8a81f1">
+        <dex dex="/Users/elfassimounir/Desktop/Android_Pojects/ChattingApp/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-location-8.4.0_bd6dc27bfbb4aa91aa957c892f2e6e345db75172/classes.dex" />
+    </item>
+    <item
+        jar="/Users/elfassimounir/Desktop/Android_Pojects/ChattingApp/app/build/intermediates/exploded-aar/com.android.support/recyclerview-v7/23.1.1/jars/classes.jar"
+        jumboMode="true"
+        revision="23.0.2"
+        sha1="09c5e804bc67fc0580360043dff067df574a60d4">
+        <dex dex="/Users/elfassimounir/Desktop/Android_Pojects/ChattingApp/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-recyclerview-v7-23.1.1_17ae6db5ca5a3c96e25f4f7cbafbb4ee934c9502/classes.dex" />
+    </item>
+    <item
+        jar="/Users/elfassimounir/Desktop/Android_Pojects/ChattingApp/app/libs/httpclient-4.3.6.jar"
+        jumboMode="true"
+        revision="23.0.2"
+        sha1="f3cf3b25e14d3bca47773e95aa85ea8fefbf8e81">
+        <dex dex="/Users/elfassimounir/Desktop/Android_Pojects/ChattingApp/app/build/intermediates/transforms/dex/debug/folders/1000/2/httpclient-4.3.6_5b7a2e18e1b38e458cf771c569f9cbbfe5d7eb7d/classes.dex" />
+    </item>
+    <item
+        jar="/Users/elfassimounir/Desktop/Android_Pojects/ChattingApp/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.1.1/jars/classes.jar"
+        jumboMode="true"
+        revision="23.0.2"
+        sha1="6cbc7773921fcfedbe55657578f0cbfe614778dc">
+        <dex dex="/Users/elfassimounir/Desktop/Android_Pojects/ChattingApp/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-v4-23.1.1_2d0792468c9ae29b8a42a54681c31b85f64e1297/classes.dex" />
+    </item>
+    <item
+        jar="/Users/elfassimounir/Desktop/Android_Pojects/ChattingApp/app/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
+        jumboMode="true"
+        revision="23.0.2"
+        sha1="ac50a1f40b46927da09229d616720473a3701539">
+        <dex dex="/Users/elfassimounir/Desktop/Android_Pojects/ChattingApp/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run_dfe6219847fbe93c0dcb268429b3c8ff4ef884e9/classes.dex" />
+    </item>
+    <item
+        jar="/Users/elfassimounir/Desktop/Android_Pojects/ChattingApp/app/build/intermediates/exploded-aar/com.android.volley/volley/1.0.0/jars/classes.jar"
+        jumboMode="true"
+        revision="23.0.2"
+        sha1="2cd4b982617e544728de0782d718a58ce1b06e3f">
+        <dex dex="/Users/elfassimounir/Desktop/Android_Pojects/ChattingApp/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.volley-volley-1.0.0_e080bcccd4b0ad20908498bc7dd23838290f84f9/classes.dex" />
+    </item>
+    <item
+        jar="/Users/elfassimounir/Desktop/Android_Pojects/ChattingApp/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/8.4.0/jars/classes.jar"
+        jumboMode="true"
+        revision="23.0.2"
+        sha1="8e673cdfadd8f2d98fdb2fda2285c30f6e449782">
+        <dex dex="/Users/elfassimounir/Desktop/Android_Pojects/ChattingApp/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-basement-8.4.0_bb8e82ed4d6ab806ea193e2364312f82f0d8c742/classes.dex" />
+    </item>
+    <item
+        jar="/Users/elfassimounir/.gradle/caches/modules-2/files-2.1/org.apache.httpcomponents/httpmime/4.3.6/cf8bacbf0d476c7f2221f861269365b66447f7ec/httpmime-4.3.6.jar"
+        jumboMode="true"
+        revision="23.0.2"
+        sha1="cf8bacbf0d476c7f2221f861269365b66447f7ec">
+        <dex dex="/Users/elfassimounir/Desktop/Android_Pojects/ChattingApp/app/build/intermediates/transforms/dex/debug/folders/1000/10/httpmime-4.3.6_1cad43578c0691d9981733a587a5a453ef11de59/classes.dex" />
+    </item>
+
+</items>

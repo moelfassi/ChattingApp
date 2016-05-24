@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <include layout="@layout/toolbar" />
+
+    <LinearLayout
+        android:layout_marginLeft="5dp"
+        android:layout_marginStart="5dp"
+        android:id="@+id/header"
+        android:visibility="gone"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorPrimary"
+        android:gravity="center|start" >
+
+        <Button
+            android:id="@+id/backbutton"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_margin="5sp"
+            android:background="@drawable/back"
+            android:paddingBottom="5sp"
+            android:paddingLeft="15sp"
+            android:paddingRight="15sp"
+            android:paddingTop="5sp"
+            android:text="" />
+
+        <TextView
+            android:id="@+id/txtname"
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:layout_margin="5sp"
+            android:layout_weight="1"
+            android:padding="5sp"
+            android:text="@string/add_group"
+            android:textColor="@color/white"
+            android:textSize="20sp" />
+    </LinearLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:fillViewport="true"
+        android:layout_weight="1"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:orientation="vertical" >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="20dp"
+                android:orientation="vertical" >
+
+                <TextView
+                    android:id="@+id/grpNameTextView"
+                    android:layout_width="298dp"
+                    android:layout_height="wrap_content"
+                    android:text="@string/name_group" />
+
+                <EditText
+                    android:id="@+id/grpNameEditText"
+                    android:layout_width="302dp"
+                    android:layout_height="wrap_content"
+                    android:ems="10" >
+                    <requestFocus />
+                </EditText>
+
+                <TextView
+                    android:id="@+id/participantsTextView"
+                    android:layout_width="302dp"
+                    android:layout_height="wrap_content"
+                    android:text="@string/members" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="20dp"
+                android:orientation="vertical" >
+
+                <ListView
+                    android:id="@+id/userListView"
+                    android:layout_width="match_parent"
+                    android:layout_height="fill_parent" >
+                </ListView>
+
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+
+    <TextView
+            android:id="@+id/txtupdate"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5sp"
+            android:padding="5sp"
+            android:text="@string/update_group"
+            android:gravity="center"
+            android:textColor="@color/white"
+            android:background="@color/colorPrimary"
+            android:textSize="20sp" />
+    <TextView
+            android:id="@+id/txtdelete"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5sp"
+            android:padding="5sp"
+            android:text="@string/delete_group"
+            android:gravity="center"
+            android:textColor="@color/white"
+            android:background="@color/colorPrimary"
+            android:textSize="20sp" />
+
+</LinearLayout>

@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/LinearLayout1"
+    xmlns:emojicon="http://schemas.android.com/apk/res-auto"
+    android:layout_width="fill_parent"
+    android:gravity="left"
+    android:layout_height="fill_parent" >
+
+    <LinearLayout
+        android:id="@+id/mainlinl"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="5.07"
+        android:gravity="left"
+        android:orientation="horizontal" >
+
+        <github.ankushsachdeva.emojicon.EmojiconTextView
+            android:id="@+id/message_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="5sp"
+            android:shadowDx="1"
+            android:padding="5dp"
+            emojicon:emojiconSize="28sp"
+            android:shadowDy="1"
+            android:linksClickable="true"
+            android:autoLink="web|phone|email"
+            android:text="Medium Text"
+            android:textColorLink="@color/material_blue_500"
+            android:textColor="@color/Black"
+            android:textSize="20sp" />
+
+        <LinearLayout
+            android:id="@+id/thumblinl"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="left"
+            android:orientation="vertical" >
+            <TextView
+                android:id="@+id/txtsender"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="5sp"
+                android:shadowDx="1"
+                android:shadowDy="1"
+                android:text="Medium Text"
+                android:textColor="@color/Black"
+                android:textSize="20sp" />
+
+            <ImageView
+                android:id="@+id/thumb"
+                android:layout_width="120dp"
+                android:layout_height="80dp"
+                android:src="@drawable/placeholder_image"
+                android:visibility="visible" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>		

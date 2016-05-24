@@ -1,0 +1,44 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_first_fragment"
+            android:icon="@drawable/icon_draw"
+            android:title="@string/drawer_title_home" />
+        <item
+            android:id="@+id/nav_second_fragment"
+            android:icon="@drawable/icon_draw"
+            android:title="@string/drawer_title_search" />
+        <item
+            android:id="@+id/nav_third_fragment"
+            android:icon="@drawable/icon_draw"
+            android:title="@string/drawer_title_myfriends" />
+    </group>
+
+    <item android:title="Sub items">
+        <menu>
+            <item
+                android:id="@+id/nav_fourth_fragment"
+                android:icon="@drawable/icon_draw"
+                android:title="@string/drawer_title_blockeduser" />
+            <item
+                android:id="@+id/nav_fifth_fragment"
+                android:icon="@drawable/icon_draw"
+                android:title="@string/drawer_title_newgroup" />
+
+            <item
+                android:id="@+id/nav_sixth_fragment"
+                android:icon="@drawable/icon_draw"
+                android:title="@string/drawer_title_settings" />
+
+            <item
+                android:id="@+id/nav_sev_fragment"
+                android:icon="@drawable/icon_draw"
+                android:title="@string/drawer_title_share" />
+            <item
+                android:id="@+id/nav_eighth_fragment"
+                android:icon="@drawable/icon_draw"
+                android:title="@string/drawer_title_logout" />
+        </menu>
+    </item>
+</menu>

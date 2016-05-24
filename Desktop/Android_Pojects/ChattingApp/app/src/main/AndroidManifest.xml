@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.example.chattingapp">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.GET_ACCOUNTS" />
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" />
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <uses-permission android:name="android.permission.USE_CREDENTIALS" />
+    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        tools:replace="android:icon"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".activity.SplashActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name=".activity.MainActivity"
+            android:label="Chats"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".activity.MainLog"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateUnchanged" >
+        </activity>
+        <activity
+            android:name=".activity.RegisterActivity"
+            android:label="Register"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateUnchanged|stateHidden" >
+        </activity>
+        <activity
+            android:name=".activity.LoginActivity"
+            android:label="Login"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateUnchanged|stateHidden" >
+        </activity>
+        <activity
+            android:name=".activity.ChatActivity"
+            android:screenOrientation="portrait"
+            android:parentActivityName=".activity.MainActivity"
+            android:windowSoftInputMode="stateUnchanged|stateHidden" >
+        </activity>
+        <activity
+            android:name=".activity.GroupChatActivity"
+            android:screenOrientation="portrait"
+            android:parentActivityName=".activity.MainActivity"
+            android:windowSoftInputMode="stateUnchanged|stateHidden" >
+        </activity>
+        <activity
+            android:name=".activity.GroupDetails"
+            android:screenOrientation="portrait"
+            android:parentActivityName=".activity.MainActivity"
+            android:windowSoftInputMode="stateUnchanged|stateHidden" >
+        </activity>
+        <activity
+            android:name=".activity.GroupUpdate"
+            android:screenOrientation="portrait"
+            android:parentActivityName=".activity.MainActivity"
+            android:windowSoftInputMode="stateUnchanged|stateHidden" >
+        </activity>
+        <activity
+            android:name=".activity.ProfileActivity"
+            android:screenOrientation="portrait"
+            android:parentActivityName=".activity.MainActivity"
+            android:windowSoftInputMode="stateUnchanged|stateHidden" >
+        </activity>
+
+        <activity android:name="com.soundcloud.android.crop.CropImageActivity" />
+
+
+        <receiver
+            android:name=".GcmBroadcastReceiver"
+            android:permission="com.google.android.c2dm.permission.SEND" >
+            <intent-filter>
+                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
+                <action android:name="com.google.android.c2dm.intent.REGISTRATION" />
+
+                <category android:name="co.touria.fortinchat" />
+            </intent-filter>
+        </receiver>
+
+        <service android:name=".GcmMessageHandler" />
+
+        <meta-data
+            android:name="com.google.android.gms.version"
+            android:value="@integer/google_play_services_version" />
+
+
+    </application>
+
+</manifest>

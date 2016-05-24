@@ -1,0 +1,38 @@
+[
+    {
+        "merged": "/Users/elfassimounir/Documents/workspace/ChattingApp/emojicon/build/intermediates/res/merged/androidTest/debug/layout/emojicon_grid.xml",
+        "source": "/Users/elfassimounir/Documents/workspace/ChattingApp/emojicon/build/intermediates/bundles/debug/res/layout/emojicon_grid.xml"
+    },
+    {
+        "merged": "/Users/elfassimounir/Documents/workspace/ChattingApp/emojicon/build/intermediates/res/merged/androidTest/debug/layout/emojicon_item.xml",
+        "source": "/Users/elfassimounir/Documents/workspace/ChattingApp/emojicon/build/intermediates/bundles/debug/res/layout/emojicon_item.xml"
+    },
+    {
+        "merged": "/Users/elfassimounir/Desktop/Android_Pojects/ChattingApp/emojicon/build/intermediates/res/merged/androidTest/debug/layout/emojicon_item.xml",
+        "source": "/Users/elfassimounir/Desktop/Android_Pojects/ChattingApp/emojicon/build/intermediates/bundles/debug/res/layout/emojicon_item.xml"
+    },
+    {
+        "merged": "/Users/elfassimounir/Desktop/Android_Pojects/ChattingApp/emojicon/build/intermediates/res/merged/androidTest/debug/layout/emojicon_grid.xml",
+        "source": "/Users/elfassimounir/Desktop/Android_Pojects/ChattingApp/emojicon/build/intermediates/bundles/debug/res/layout/emojicon_grid.xml"
+    },
+    {
+        "merged": "/Users/elfassimounir/Documents/workspace/YesWeChat/emojicon/build/intermediates/res/merged/androidTest/debug/layout/emojicons.xml",
+        "source": "/Users/elfassimounir/Documents/workspace/YesWeChat/emojicon/build/intermediates/bundles/debug/res/layout/emojicons.xml"
+    },
+    {
+        "merged": "/Users/elfassimounir/Documents/workspace/ChattingApp/emojicon/build/intermediates/res/merged/androidTest/debug/layout/emojicons.xml",
+        "source": "/Users/elfassimounir/Documents/workspace/ChattingApp/emojicon/build/intermediates/bundles/debug/res/layout/emojicons.xml"
+    },
+    {
+        "merged": "/Users/elfassimounir/Desktop/Android_Pojects/ChattingApp/emojicon/build/intermediates/res/merged/androidTest/debug/layout/emojicons.xml",
+        "source": "/Users/elfassimounir/Desktop/Android_Pojects/ChattingApp/emojicon/build/intermediates/bundles/debug/res/layout/emojicons.xml"
+    },
+    {
+        "merged": "/Users/elfassimounir/Documents/workspace/YesWeChat/emojicon/build/intermediates/res/merged/androidTest/debug/layout/emojicon_grid.xml",
+        "source": "/Users/elfassimounir/Documents/workspace/YesWeChat/emojicon/build/intermediates/bundles/debug/res/layout/emojicon_grid.xml"
+    },
+    {
+        "merged": "/Users/elfassimounir/Documents/workspace/YesWeChat/emojicon/build/intermediates/res/merged/androidTest/debug/layout/emojicon_item.xml",
+        "source": "/Users/elfassimounir/Documents/workspace/YesWeChat/emojicon/build/intermediates/bundles/debug/res/layout/emojicon_item.xml"
+    }
+]
